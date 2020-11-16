@@ -35,7 +35,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/goToAddCity"
+        android:id="@+id/saveCityButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="28dp"
@@ -54,7 +54,7 @@
         android:layout_marginBottom="116dp"
         android:text="@string/pleas_clicke_on_the_add_button_to_add_a_city"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/goToAddCity"
+        app:layout_constraintBottom_toTopOf="@+id/saveCityButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"

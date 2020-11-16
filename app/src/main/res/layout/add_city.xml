@@ -24,7 +24,7 @@
 
 
     <Button
-        android:id="@+id/goToAddCity"
+        android:id="@+id/addSaveCityButton"
         android:layout_width="364dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="124dp"
@@ -44,7 +44,7 @@
         android:layout_marginTop="131dp"
         android:text="Enter the name of the city you want to add"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextCityName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,14 +64,14 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextCityName"
         android:layout_width="295dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="173dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="City Name"
-        app:layout_constraintBottom_toTopOf="@+id/goToAddCity"
+        app:layout_constraintBottom_toTopOf="@+id/saveCityButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
